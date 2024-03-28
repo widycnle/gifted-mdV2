@@ -32,7 +32,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE ||
 
 global.devs = "254728782591,254762016957" // Do Not Change Else Bot Won't Work After Deploying
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "254728782591,254762016957";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254728782591,254762016957";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254722972541";
 
 
 
@@ -48,7 +48,7 @@ global.disablepm = process.env.DISABLE_PM || "true",
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "true", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
 global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/54efddccf41281ad7ec51.jpg",
-global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
+global.waPresence= process.env.WAPRESENCE ||  "" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
@@ -82,7 +82,7 @@ module.exports = {
   author : process.env.PACK_AUTHER|| "Gifted-MD",
   packname: process.env.PACK_NAME || "♥️",
   botname : process.env.BOT_NAME  || "ɢɪғᴛᴇᴅ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It's Gifted",
+  ownername:process.env.OWNER_NAME|| "🪢widycnle🪢",
 
 
   errorChat : process.env.ERROR_CHAT || "",
